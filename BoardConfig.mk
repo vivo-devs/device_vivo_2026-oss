@@ -24,8 +24,15 @@ TARGET_2ND_CPU_ABI2 := armeabi
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := 2026,PD2036,PD2036F
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := k65v1_64_bsp
+TARGET_NO_BOOTLOADER := true
+
 # Display
 TARGET_SCREEN_DENSITY := 300
+
+# Platform
+TARGET_BOARD_PLATFORM := mt6765
 
 # Inherit the proprietary files
 include vendor/vivo/2026/BoardConfigVendor.mk
