@@ -27,8 +27,8 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 1080
-TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1600
 
 # Media
 PRODUCT_COPY_FILES += \
